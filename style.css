@@ -2,3 +2,50 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
+.banner-container{
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    
+}
+.banner-title{
+    color: #272727;
+font-size: 65px;
+font-weight: 800;
+line-height: normal;
+margin-left: 150px;
+}
+.banner-text{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+width: 65%;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+margin-left: 120px;
+}
+.shop-btn{
+background: #E55473;
+border-radius: 8px;
+border-style: none;
+color: #FFF;
+font-size: 15px;
+font-weight: 700;
+line-height: normal;
+display: inline-flex;
+margin-top: 20px;
+margin-left: 120px;
+padding: 20px 43px;
+gap: 10px;
+}
+.banner-img{
+   margin-right: 120px;
+   margin-bottom: 40px;
+   /* margin-top: 70px; */
+   width: 635px;
+   height: 800px;
+}
