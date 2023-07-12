@@ -43,11 +43,13 @@ padding: 20px 43px;
 gap: 10px;
 }
 .banner-img{
-   margin-right: 120px;
-   margin-bottom: 40px;
-   /* margin-top: 70px; */
-   width: 635px;
-   height: 800px;
+    margin-right: 150px;
+    margin-top: auto;
+}
+.banner-img .banner-1st-img {
+    width: 550px;
+    height: 750px;
+    
 }
 .feature-title{
     color: #272727;
@@ -208,6 +210,37 @@ margin-left: 200px;
     height: 375px;
     margin-top: 30px;
     margin-right: 200px;
-
+}
+instagram {
+    margin: 0px 20px 0px 20px;
 }
 
+.insta-text h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.insta-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 35px;
+}
+
+.insta-img {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.insta-img .insta-img-group {
+    width: 200px;
+    margin: 10px;
+}
