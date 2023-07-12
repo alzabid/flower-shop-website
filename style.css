@@ -143,3 +143,42 @@ margin-bottom: 40px;
     text-decoration: underline;
     font-weight: 600;
 }
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.09);
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.service-logo .logo {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-caption {
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+}
+
+#l-1 {
+    margin-left: 85px;
+}
+
+#text-2 {
+    margin-right: 50px;
+}
+
+#l-2 {
+    margin-left: 85px;
+}
+
+#l-3 {
+    margin-left: 50px;
+}
+
